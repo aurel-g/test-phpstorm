@@ -1,0 +1,21 @@
+{
+    "name": "aurel-g/test-phpstorm",
+    "description": "Demonstrates a probable bug in PhpStorm",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "nikic/php-parser": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AurelG\\TestPhpStorm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "aurel-g"
+        }
+    ]
+}
